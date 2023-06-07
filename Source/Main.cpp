@@ -9,13 +9,13 @@
 
 int main(int argc, char** argv)
 {
-	if (!ConstData::HandleArgs(argc, argv))
-	{
-		return 1;
-	}
+    if (!ConstData::HandleArgs(argc, argv))
+    {
+        return 1;
+    }
 
-	Processor::LookForJobs();
-	Processor::ProcessJobs();
+    Processor::LookForJobs();
+    Processor::ProcessJobs();
 
-	return 0;
+    return 0;
 }
