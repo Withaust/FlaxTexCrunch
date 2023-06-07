@@ -1,4 +1,6 @@
-# Flax stuff
+Input/
+Output/
+
 *.sln
 [Dd]ebug/
 [Rr]elease/
@@ -12,7 +14,6 @@ Source/*.csproj
 /Source/Platforms/Editor/Linux/Mono/etc/mono/registry
 PackageEditor_Cert.bat
 PackagePlatforms_Cert.bat
-*.png
 
 # User-specific files
 *.suo

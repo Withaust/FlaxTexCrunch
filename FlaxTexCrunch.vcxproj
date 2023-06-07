@@ -143,11 +143,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FlaxTexCrunch.cpp" />
+    <ClCompile Include="Source\Processor.cpp" />
+    <ClCompile Include="Source\ConstData.cpp" />
+    <ClCompile Include="Source\ConstData.h" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Logger.cpp" />
+    <ClCompile Include="Source\StdUtil.cpp" />
+    <ClCompile Include="Source\ThreadPool.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stb_image.h" />
-    <ClInclude Include="stb_image_write.h" />
+    <ClInclude Include="Source\Processor.h" />
+    <ClInclude Include="Source\Logger.h" />
+    <ClInclude Include="Source\StdUtil.h" />
+    <ClInclude Include="Thirdparty\stb_image.h" />
+    <ClInclude Include="Thirdparty\stb_image_write.h" />
+    <ClInclude Include="Source\ThreadPool.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
